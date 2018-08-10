@@ -1,0 +1,26 @@
+.logo{line-height: 35px;}
+.logo img{height: 50px;margin-top: -15px;}
+a:hover{text-decoration: none;}
+.active{text-decoration: none !important;}
+
+
+/*player*/
+.player{padding: 20px;}
+.thumbnail{display: flex;flex-direction: column;align-items: center; border: 1px #eee solid;margin: 5px;padding:10px 5px;border-radius: 5px;box-shadow: 1px 1px 3px rgba(0,0,0,.1); }
+.player_avatar{border-radius: 50%;width: 112px;}
+.player_team_avater{width: 24px;height: 24px;margin-right: 10px;}
+.caption{margin: 5px 0;}
+.caption h3{font-size: 16px;margin: 10px 0;text-align: center;}
+.caption p{display:flex;font-size: 12px;color: #999;}
+.avatar-uploader-icon{font-size: 32px;color: #ccc; width: 150px;height: 150px;border-radius: 10px;border: 1px solid #eee;line-height: 150px !important;}
+
+/*team*/
+.match_item{width: 80%; display: flex;justify-content: space-between;align-items: center; margin: 30px auto;border: 1px solid #eee;padding: 3%;box-shadow: 1px 1px 3px rgba(0,0,0,.2);}
+.match_item .banner{text-align: center;font-size: 14px;width: 60%;}
+.match_item .banner img{width: 100%;}
+.match_item .banner p{font-size: 12px;}
+.team_box{font-size: 14px;text-align: center;width: 18%;}
+.team_box img{width: 50%;}
+
+/*live*/
+.live{padding: 20px;}

@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+html,body{background:#fff;color:#505050;font-size:62.5%;-webkit-user-select:none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-user-select:none;-webkit-touch-callout:none;-webkit-touch-callout:none;font-family: "微软雅黑"}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {margin:0;padding:0;}
+body,button,input,select,textarea {font-family: "微软雅黑"}
+h1{font-size:24px;}
+h2{font-size:22px;}
+h3{font-size:18px;}
+@media only screen and (min-width:360px) {
+    h1{font-size:28px;}
+    h2{font-size:26px;}
+    h3{font-size:22px;}
+    body,button,input,select,textarea {font-size:18px;line-height:26px;}
+}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}/*阻止旋转屏幕时自动调整字体大小*/
+textarea{resize:none;}
+
+.pad10{
+	padding: 10px;
+}
+.pad5{
+	padding: 5px;
+}
+.mt10{
+	margin-top: 10px;
+}
+.mb10{
+	margin-bottom: 10px;
+}
+.mt10{
+	margin-top: 10px;
+}
+.w100{
+	width: 100%;
+}
+.flex{
+	display: flex;
+}
+.red{
+	color: red;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.br{
+	border-right: 1px solid #eee;
+}
+.bb{
+	border-bottom: 1px solid #eee;
+}
+.title{
+	font-size: 18px;
+	font-weight: 600;
+	color: #222;
+}
+
+ 
